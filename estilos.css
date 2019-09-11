@@ -44,11 +44,10 @@ p{
 }
 button{
   height:30px;
-  width:150px;
-  background-color:#DCDCDC;
+  width:200px;
   cursor:pointer;
-  text-decoration:none
-  background-       image:url(https://ssl.gstatic.com/gb/images/silhouette_27.png)
+  display:inline;
+  margin: 0 0 0 175px;
     
 }
 input{
@@ -57,3 +56,4 @@ margin:auto;
 height:40px;
 width:600px;
 color:#000;
+}
