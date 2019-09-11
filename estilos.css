@@ -36,29 +36,24 @@ a:hover, a:focus {
 }
 p{
   font-size:12px;
+  margin:10px 10px 10px 10px;
 }
 #fin{
   background-color:#DCDCDC;
+  margin:10px 10px 10px 10px;
 }
 button{
   height:30px;
   width:150px;
   background-color:#DCDCDC;
+  cursor:pointer;
+  text-decoration:none
+  background-       image:url(https://ssl.gstatic.com/gb/images/silhouette_27.png)
+    
 }
 input{
-  display:inline-block;
-outline:none;
-vertical-align:middle;
--moz-border-radius:2px;
-border-radius:2px;
--moz-box-sizing:border-box;
-box-sizing:border-box;
-height:30px;
+display:block;
+margin:auto;
+height:40px;
 width:600px;
 color:#000;
-cursor:pointer;
-text-decoration:none
-  background-image:url(https://ssl.gstatic.com/gb/images/silhouette_27.png)
-}
-
-
