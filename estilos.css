@@ -1,0 +1,64 @@
+#encabezado li{
+    font-family:Arial;
+    font-size:12px;
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+    text-align: right;
+}
+.menu{
+ text-align: right;
+}
+img{
+display:block;
+margin:auto;
+}
+a {
+   text-decoration: none;
+   color:black;
+   background-image: linear-gradient(currentColor, currentColor);
+   background-position: 0% 100%;
+   background-repeat: no-repeat;
+   background-size: 0% 1px;
+   transition: background-size .1s;
+}
+
+a:hover, a:focus {
+   background-size: 100% 1px;
+}
+#pie li{
+    font-family:Arial;
+    font-size:12px;
+    display:inline;
+    padding-left:30px;
+    padding-right:12px;
+      
+}
+p{
+  font-size:12px;
+}
+#fin{
+  background-color:#DCDCDC;
+}
+button{
+  height:30px;
+  width:150px;
+  background-color:#DCDCDC;
+}
+input{
+  display:inline-block;
+outline:none;
+vertical-align:middle;
+-moz-border-radius:2px;
+border-radius:2px;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+height:30px;
+width:600px;
+color:#000;
+cursor:pointer;
+text-decoration:none
+  background-image:url(https://ssl.gstatic.com/gb/images/silhouette_27.png)
+}
+
+
