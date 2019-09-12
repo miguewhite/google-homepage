@@ -22,7 +22,9 @@ a {
    background-size: 0% 1px;
    transition: background-size .1s;
 }
-
+.logo{
+ padding-top: 100px;   
+}
 a:hover, a:focus {
    background-size: 100% 1px;
 }
@@ -180,7 +182,7 @@ text-align: left;
 .end{
   background-color: rgb(242, 242, 242);
   width: 100%;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .boxinf{
     display: inline-block;
