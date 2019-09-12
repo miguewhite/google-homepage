@@ -1,4 +1,4 @@
-#encabezado li{
+.encabezado li{
     font-family:Arial;
     font-size:12px;
     display:inline;
@@ -11,7 +11,7 @@
 }
 img{
 display:block;
-margin:auto;
+margin:125px 100px 10px 275px;
 }
 a {
    text-decoration: none;
@@ -26,34 +26,221 @@ a {
 a:hover, a:focus {
    background-size: 100% 1px;
 }
-#pie li{
-    font-family:Arial;
-    font-size:12px;
-    display:inline;
-    padding-left:30px;
-    padding-right:12px;
-      
+
+.search-input{
+  background-color: rgb(255, 255, 255);
+    background-image: url(https://joegelay.github.io/google-homepage/media/voice-logo.png);
+    background-position-x: 465px;
+    background-position-y: 5px;
+    background-repeat: no-repeat;
+    border-bottom-color: rgb(223, 225, 229);
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(223, 225, 229);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(223, 225, 229);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(223, 225, 229);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: none;
+    color: rgb(0, 0, 0);
+    cursor: text;
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 35px;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1px;
+    text-align: left;
+    text-indent: 15px;
+    text-rendering: auto;
+    width: 500px;
 }
-p{
-  font-size:12px;
-  margin:10px 10px 10px 10px;
+.search-form {
+    height: 44px;
+    width: 900px;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+    border-radius: 24px;
+    border-color: rgb(223, 225, 229);
 }
-#fin{
-  background-color:#DCDCDC;
-  margin:10px 10px 10px 10px;
+.google-search{
+    background-color: rgb(242, 242, 242);
+    border-color: rgb(242, 242, 242);
+    border-radius: 4px;
+    border-width: 1px;
+    margin: 11px 4px;
+    border-style: solid;
+    color: rgb(95, 99, 104);
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-weight: 400;
+    height: 36px;
+    line-height: 27px;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor:pointer;
 }
-button{
-  height:30px;
-  width:200px;
-  cursor:pointer;
-  display:inline;
-  margin: 0 0 0 175px;
-    
+.suerte{
+  background-color: rgb(242, 242, 242);
+    border-color: rgb(242, 242, 242);
+    border-radius: 4px;
+    border-width: 1px;
+    margin: 11px 4px;
+    border-style: solid;
+    color: rgb(95, 99, 104);
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-weight: 400;
+    height: 36px;
+    line-height: 27px;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor:pointer;
 }
-input{
-display:block;
-margin:auto;
-height:40px;
-width:600px;
-color:#000;
+.search-div{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.cuadros{
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    height: 30px;
+    width: 30px;
+    background-position-x: -132px;
+    background-position-y: 22px;
+    background-size: 528px 68px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: normal;
+    opacity: 0.60;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    text-align: left;
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.boxsup{
+  color: rgba(0, 0, 0, 0.54);
+display: block;
+line-height: 40px;
+padding-left: 27px;
+text-align: left;
+border-bottom-color: rgb(228, 228, 228);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+}
+.bolivia{
+  color: rgba(0, 0, 0, 0.54);
+line-height: 40px;
+text-align: left;
+}
+.end{
+  background-color: rgb(242, 242, 242);
+  width: 100%;
+  margin-top: 50px;
+}
+.boxinf{
+    display: inline-block;
+    width: 100%;
+}
+.izq{
+      color: rgb(34, 34, 34);
+    display: block;
+    float: left;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 30px;
+    visibility: visible;
+    white-space: nowrap;
+    width: 206px;
+}
+.der{
+  color: rgb(34, 34, 34);
+    display: block;
+    float: right;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 30px;
+    visibility: visible;
+    white-space: nowrap;
+    width: 206px;
+}
+.pub, .bis, .abou, .how{
+  color: rgb(95, 99, 104);
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+.der{
+    color: rgb(34, 34, 34);
+    display: block;
+    float: right;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 50px;
+    visibility: visible;
+    white-space: nowrap;
+    width: 206px;
+}
+.priv, .cond, .pref{
+  color: rgb(95, 99, 104);
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-top: 0px;
+ 
 }
